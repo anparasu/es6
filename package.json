@@ -1,0 +1,19 @@
+{
+    "name": "es6",
+    "version": "1.0.0",
+    "description": "for learing es6",
+    "main": "index.js",
+    "watch": {
+        "build": "src"
+    },
+    "scripts": {
+        "build": "./node_modules/.bin/babel src -d scripts",
+        "watch": "npm-watch"
+    },
+    "author": "Anbu",
+    "license": "ISC",
+    "devDependencies": {
+        "babel-cli": "^6.22.2",
+        "babel-preset-env": "^1.1.8"
+    }
+}
